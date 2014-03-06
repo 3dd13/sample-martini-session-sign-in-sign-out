@@ -1,0 +1,14 @@
+{
+  "development": {
+    "driver": "postgres",
+    "source": "dbname=first_go_dev host=localhost sslmode=disable"
+  },
+  "production": {
+    "driver": "postgres",
+    "source": "dbname=first_go_prod host=localhost sslmode=disable"
+  },
+  "test": {
+    "driver": "postgres",
+    "source": "dbname=first_go_test host=localhost sslmode=disable"
+  }
+}
